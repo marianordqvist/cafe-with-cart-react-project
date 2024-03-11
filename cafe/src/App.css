@@ -26,7 +26,7 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  object-position: bottom;
+  object-position: center;
 }
 
 p {
@@ -157,7 +157,7 @@ img {
 .about-section--title {
   position: relative;
   font-family: "Chewy", system-ui;
-  font-size: 5rem;
+  font-size: 2.5rem;
   color: rgb(83, 195, 169);
   padding: 1rem 0;
 }
@@ -174,29 +174,28 @@ img {
   }
   .about-section--title {
     position: absolute;
-    right: 10rem;
-    top: 30rem;
     flex-wrap: wrap;
-    width: 50%;
-    font-size: 3.5rem;
+    width: 60%;
+    font-size: 4rem;
+    right: 7%;
   }
   .coffee-image {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .about-section--title {
-    right: 16rem;
-    top: 50rem;
-    font-size: 5rem;
+    right: 10%;
+    font-size: 4.5rem;
+    width: 55%;
   }
 }
 
 .products-section {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  padding: 1rem 3rem;
 }
 
 .product-page,
@@ -211,9 +210,24 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 60%;
+  width: 100%;
   color: black;
   gap: 1rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+.product-container {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 700px) {
+  .product-page {
+    width: 60%;
+  }
 }
 
 .product-page p {
@@ -222,6 +236,15 @@ img {
 
 .product-image {
   width: 60%;
+}
+
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .cart-page--no-items {
@@ -234,15 +257,6 @@ img {
 
 .cart-page--no-items p {
   color: black;
-}
-
-.cart-page {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 3rem;
-  align-items: center;
-  justify-content: center;
 }
 
 .item-in-cart {
@@ -260,6 +274,10 @@ img {
     flex-wrap: wrap;
   }
 
+  .cart-page--no-items {
+    flex-direction: column;
+  }
+
   .item-in-cart {
     width: 25%;
     height: 100%;
@@ -274,8 +292,8 @@ img {
 
 .products-container {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: center;
+  gap: 3rem;
   flex-wrap: wrap;
 }
 
@@ -286,6 +304,7 @@ img {
   background-color: rgb(167, 145, 130);
   padding: 1rem;
   border-radius: 2rem;
+  width: 100%;
 }
 
 .button-cart {

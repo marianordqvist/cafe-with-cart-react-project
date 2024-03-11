@@ -20,7 +20,8 @@ export const products = [
     name: "Cookies",
     price: 15,
     description:
-      "Immerse yourself in the exciting symphony of sweet and spirited flavors that our Punch Rolls deliver. The zesty kick of punch, expertly blended with the sweet decadence of the cream, creates a palate-pleasing sensation that is both unique and unforgettable. Whether you're a connoisseur of adventurous desserts or simply looking to spice up your day, these rolls are a delightful choice.",
+      "We take pride in baking our cookies from scratch, using only the finest, high-quality ingredients. Each cookie is a labor of love, combining traditional recipes with a dash of creativity to deliver a taste that feels just like home. From classic chocolate chip to exotic flavors that dance on your taste buds, our cookie selection is a testament to the artistry of our bakers.",
+
     image:
       "https://images.unsplash.com/photo-1622467827417-bbe2237067a9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     id: 3,
@@ -33,5 +34,23 @@ export const products = [
     image:
       "https://images.unsplash.com/photo-1552689486-f6773047d19f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     id: 4,
+  },
+  {
+    name: "Pralines",
+    price: 25,
+    description:
+      "Indulge in the irresistible allure of our Chocolate Pralines, where velvety chocolate meets the crunch of perfectly caramelized nuts. Handcrafted with precision and passion, each praline is a bite-sized piece of heaven. Whether you're treating yourself or looking for the ideal gift, our Chocolate Pralines are the epitome of luxury and taste. Satisfy your sweet cravings with this exquisite delicacy. Order your box of Chocolate Pralines today and elevate your dessert experience to new heights!",
+    image:
+      "https://images.unsplash.com/photo-1571859812101-5512cab4416d?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    id: 5,
+  },
+  {
+    name: "Croissants",
+    price: 35,
+    description:
+      "Start your day on a delightful note with our Flaky Croissants, a perfect blend of buttery layers and golden crispiness. Baked to perfection, these croissants are a true testament to the art of French pastry-making. Whether enjoyed with your morning coffee or as a light snack, our Flaky Croissants promise a moment of pure indulgence. Treat your taste buds to the simple elegance of a well-crafted croissant. Order yours now and savor the flaky goodness that defines our bakery's commitment to excellence!",
+    image:
+      "https://images.unsplash.com/photo-1586657263857-346c4b712ff5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    id: 6,
   },
 ];

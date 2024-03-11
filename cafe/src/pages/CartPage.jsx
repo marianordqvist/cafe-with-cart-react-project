@@ -39,7 +39,6 @@ export default function CartPage() {
           } else return undefined;
         })}
       </section>
-      <button className="order-now-button">Order now!</button>
     </>
   );
 }
@@ -68,7 +67,7 @@ function CartItem({ count, product, onAdd, onRemove }) {
           onAdd(product.id, 1);
         }}
       >
-        +
+        + Add
       </button>
       <button
         onClick={(e) => {
@@ -76,7 +75,7 @@ function CartItem({ count, product, onAdd, onRemove }) {
           onRemove(product.id, 1);
         }}
       >
-        -
+        - Remove
       </button>
     </div>
   );
