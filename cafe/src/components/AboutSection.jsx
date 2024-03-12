@@ -1,4 +1,4 @@
-import CoffeeImg from "../images/kaffe-close.jpg";
+import CoffeeImg from "../images/kaffe-close.webp";
 
 export default function AboutSection() {
   return (

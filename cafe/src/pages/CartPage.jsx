@@ -10,7 +10,7 @@ export default function CartPage() {
   if (!cartItems.length) {
     return (
       <section className="cart-page cart-page--no-items">
-        <p>Oops! There are no items in Cart!</p>
+        <p>There is nothing here - yet!</p>
         <Link to="/">
           <button className="button button-cart">Back to Home</button>
         </Link>

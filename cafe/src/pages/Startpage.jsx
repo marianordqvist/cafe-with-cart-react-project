@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import useRetrieveProducts from "../hooks/useRetrieveProducts";
 import Product from "../components/Product";
-import BannerImg from "../images/banner-img.jpg";
+import BannerImg from "../images/banner-img.webp";
 import AboutSection from "../components/AboutSection";
 
 export default function Startpage() {
@@ -12,8 +12,8 @@ export default function Startpage() {
       <img
         src={BannerImg}
         alt="image of hands holding a cup of coffee"
-        width="400px"
-        height="200px"
+        width="1280px"
+        height="900px"
         className="banner-image"
       />
 
